@@ -1,4 +1,59 @@
 @charset "UTF-8";
+@font-face {
+  font-family: HindiMedium;
+  src: url(/fonts/HindMadurai-Medium.ttf);
+}
+@font-face {
+  font-family: HindiRegular;
+  src: url(/fonts/HindMadurai-Regular.ttf);
+}
+@font-face {
+  font-family: MartelRegular;
+  src: url(/fonts/Martel-Regular.ttf);
+}
+@font-face {
+  font-family: MartelSemiBold;
+  src: url(/fonts/Martel-SemiBold.ttf);
+}
+@font-face {
+  font-family: Questrial;
+  src: url(/fonts/Questrial-Regular.ttf);
+}
+a {
+  font-family: HindiMedium;
+}
+
+.form-control-sm {
+  font-family: HindiMedium;
+}
+
+button {
+  font-family: HindiMedium;
+}
+
+.logo {
+  max-width: 90px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+.loginAndRegister {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991.5px) {
+  .loginAndRegister {
+    flex-direction: column;
+  }
+}
+@font-face {
+  font-family: HindiMedium;
+  src: url(/fonts/HindMadurai-Medium.ttf);
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -49,7 +104,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: HindiMedium;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
