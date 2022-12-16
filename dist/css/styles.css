@@ -82,6 +82,15 @@ li {
     text-align: center;
   }
 }
+.auctionFigure {
+  max-width: 200px;
+}
+
+.about-section {
+  background-image: url(/images/orange-square.png);
+  border-radius: 50%;
+}
+
 @font-face {
   font-family: HindiMedium;
   src: url(/fonts/HindMadurai-Medium.ttf);

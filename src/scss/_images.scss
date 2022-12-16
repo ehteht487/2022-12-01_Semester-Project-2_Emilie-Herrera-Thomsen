@@ -3,7 +3,6 @@
     transform: translate(70px,-280px)    
 }
 
-
 @media (min-width: 992px) and (max-width: 1200px){
     .sell{
         transform: translate(70px,-230px)    
@@ -26,6 +25,18 @@
         text-align: center;
     }
 }
+
+.auctionFigure {
+    max-width: 200px;
+}
+
+.about-section {
+    background-image: url(/images/orange-square.png);
+    border-radius: 50%;
+}
+
+
+
 
 
 
