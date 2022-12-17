@@ -21,6 +21,6 @@ export async function login(profile) {
     storage.saveItem("token", accessToken)
 
     storage.saveItem("profile", user)
-    alert("You are logged in");
+    alert("You are logged in");    
 }
 
