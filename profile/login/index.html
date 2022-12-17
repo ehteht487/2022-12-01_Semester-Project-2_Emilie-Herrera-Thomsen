@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="/dist/css/styles.css">
     <script src="https://kit.fontawesome.com/360b73a3a2.js" crossorigin="anonymous"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>    
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/src/js/index.mjs" defer type="module"></script>    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -49,21 +50,21 @@
                 <p>Get your bidding on</p>
                 <h1>Login.</h1>
                 <p>Please enter your details</p>
-                <form>                    
+                <form id="loginForm">                    
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email">
+                        <input type="email" name="email" required pattern ="^[\w\-.]+@(stud.)?noroff.no$" title="Email can only contain upper and lower case letters and underscore (_)" class="form-control" id="email">
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password">
+                        <input type="password" name="password" required minlength="8" class="form-control" id="password">
                     </div> 
                     <p>Don't have an account? <a href="#">Create account</a></p>                   
                     <button type="submit" class="btn btn-primary rounded-pill">Login</button>
                   </form>
             </div>
             <div class="col">
-                <img src="./images/lady_bags.png" alt="">
+                <img src="../../images/lady_bags.png" alt="">
             </div>
         </div>
       </div>         
