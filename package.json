@@ -1,0 +1,28 @@
+{
+  "name": "2022-12-01_semester-project-2_emilie-herrera-thomsen",
+  "version": "1.0.0",
+  "description": "Auction web site with options for login, logout etc. ",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehteht487/2022-12-01_Semester-Project-2_Emilie-Herrera-Thomsen.git"
+  },
+  "keywords": [],
+  "author": "Emilie Herrera Thomsen <emiliethomsen908@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehteht487/2022-12-01_Semester-Project-2_Emilie-Herrera-Thomsen/issues"
+  },
+  "homepage": "https://github.com/ehteht487/2022-12-01_Semester-Project-2_Emilie-Herrera-Thomsen#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

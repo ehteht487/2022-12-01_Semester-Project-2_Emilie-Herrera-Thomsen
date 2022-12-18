@@ -1,0 +1,11 @@
+
+@import "./fonts";
+@import "./navbar";
+@import "./images";
+@import "./variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.form-control:disabled {
+    opacity: 0.5;
+}
