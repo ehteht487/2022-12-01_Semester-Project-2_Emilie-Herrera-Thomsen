@@ -25,25 +25,25 @@ if (path === "/profile/login/") {
 
 
 
-// async function testTemplate() {
-//     const listings = await listingMethods.viewListings()
-//     console.log(listings)
-//     const container = document.querySelector("#listing")
-//     renderListingTemplates(listings, container)
-// }
+async function testTemplate() {
+    const listings = await listingMethods.viewListings()
+    console.log(listings)
+    const container = document.querySelector("#listing")
+    renderListingTemplates(listings, container)
+}
 
-// testTemplate()
+testTemplate()
 
 
 
-// async function testTemplate() {
-//     const listings = await listingMethods.viewListings()
-//     const listing = listings.pop()
-//     console.log(listing)
-//     const container = document.querySelector("#listing")
-//     renderListingTemplate(listing, container)
-// }
+async function testTemplate() {
+    const listings = await listingMethods.viewListings()
+    const listing = listings.pop()
+    console.log(listing)
+    const container = document.querySelector("#listing")
+    renderListingTemplate(listing, container)
+}
 
-// testTemplate()
+testTemplate()
 
 
