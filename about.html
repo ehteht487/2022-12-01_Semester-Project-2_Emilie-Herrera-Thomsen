@@ -4,45 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="/dist/css/styles.css">
     <script src="https://kit.fontawesome.com/360b73a3a2.js" crossorigin="anonymous"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>    
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script> 
+    <script src="./src/js/index.mjs" defer></script>   
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand ps-3" href="#">
-            <img src="/images/logo_purple.png" class="logo" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Listings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">How it works</a>
-              </li>              
-            </ul>
-            <div class="d-flex loginAndRegister">
-                <a href="" class="nav-link p-2">Login</a>
-                <button type="button" class="btn btn-outline-secondary px-4 me-0 rounded-pill">Register</button>
-            </div>
-            <form class="d-flex navForm" role="search">
-                <div class="input-group justify-content-center m-2">
-                    <input class="form-control-sm" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success"type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </div>              
-            </form>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand ps-3" href="/index.html">
+        <img src="/images/logo_purple.png" class="logo" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./listings/index.html">Listings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./howItWorks.html">How it works</a>
+          </li>              
+        </ul>
+        <div class="d-flex loginAndRegister">
+          <a href="./profile/login/index.html" class="nav-link p-2">Login</a>
+          <a href="./profile/register/index.html"><button type="button" class="btn btn-outline-secondary px-4 me-0 rounded-pill">Register</button></a>
+      </div>
+        <div class="d-flex" id="logout">
+          <button type="button" class="btn btn-outline-secondary px-4 me-0 rounded-pill">Logout</button>
+      </div>            
+      </div>
+    </div>
+  </nav>
       <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-6 about-section">
