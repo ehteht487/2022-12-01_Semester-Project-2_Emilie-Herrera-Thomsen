@@ -1,0 +1,22 @@
+.logo {
+    max-width: 90px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+.loginAndRegister {
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991.5px) {
+    .loginAndRegister {
+        flex-direction: column;
+    }
+}
+
+
+

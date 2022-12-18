@@ -1,4 +1,100 @@
 @charset "UTF-8";
+@font-face {
+  font-family: HindiMedium;
+  src: url(/fonts/HindMadurai-Medium.ttf);
+}
+@font-face {
+  font-family: HindiRegular;
+  src: url(/fonts/HindMadurai-Regular.ttf);
+}
+@font-face {
+  font-family: MartelRegular;
+  src: url(/fonts/Martel-Regular.ttf);
+}
+@font-face {
+  font-family: MartelSemiBold;
+  src: url(/fonts/Martel-SemiBold.ttf);
+}
+@font-face {
+  font-family: Questrial;
+  src: url(/fonts/Questrial-Regular.ttf);
+}
+a {
+  font-family: HindiMedium;
+}
+
+.form-control-sm {
+  font-family: HindiMedium;
+}
+
+button {
+  font-family: HindiMedium;
+}
+
+h1, .h1 {
+  font-family: Questrial;
+}
+
+h2, .h2 {
+  font-family: MartelSemiBold;
+}
+
+.logo {
+  max-width: 90px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+.loginAndRegister {
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991.5px) {
+  .loginAndRegister {
+    flex-direction: column;
+  }
+}
+.sell {
+  transform: translate(70px, -280px);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sell {
+    transform: translate(70px, -230px);
+  }
+}
+@media (min-width: 0px) and (max-width: 992px) {
+  .sell {
+    transform: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .sell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sell-text {
+    text-align: center;
+  }
+}
+.auctionFigure {
+  max-width: 200px;
+}
+
+.about-section {
+  background-image: url(/images/orange-square.png);
+  border-radius: 50%;
+}
+
+@font-face {
+  font-family: HindiMedium;
+  src: url(/fonts/HindMadurai-Medium.ttf);
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -529,25 +625,20 @@ progress {
 }
 
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
+  font-size: calc(1.275rem + 0.3vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-5 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
 
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-6 {
-    font-size: 2.5rem;
-  }
 }
 
 .list-unstyled {
