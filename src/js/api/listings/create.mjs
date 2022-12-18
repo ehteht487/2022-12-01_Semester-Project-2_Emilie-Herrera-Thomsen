@@ -13,7 +13,9 @@ export async function createListing(postData) {
     })
 
      const result = await response.json()   
-    console.log(result)
+        return result
+     
+     console.log(result)
     
 }
 
